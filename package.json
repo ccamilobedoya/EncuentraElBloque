@@ -1,0 +1,31 @@
+{
+  "name": "encuentra-el-bloque",
+  "version": "1.0.0",
+  "description": "Encuentra el bloque correcto dentro de la UdeA mientras compites por ser el mas rapido",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ccamilobedoya/EncuentraElBloque.git"
+  },
+  "keywords": [
+    "UdeA",
+    "bloque",
+    "encontrar",
+    "buscar",
+    "encuentra"
+  ],
+  "author": "Cristian Bedoya",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ccamilobedoya/EncuentraElBloque/issues"
+  },
+  "homepage": "https://github.com/ccamilobedoya/EncuentraElBloque#readme",
+  "dependencies": {
+    "express": "^4.16.2",
+    "socket.io": "^2.0.4"
+  }
+}
