@@ -1,3 +1,14 @@
 html
+  head
+    
   body
-    h1 Index
+    form#GoToRoomForm(onSubmit="")
+      label Numero de Sala
+      input(type="text" id="roomId" value="")
+      label Nombre del jugador
+      input(type="text" id="userId" value="")
+      button(type="button", value="Ingresar" onclick="GoToRoom()") Ingresar
+
+    script(src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js")
+    script(src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.0.4/socket.io.js")
+    script(src="/static/js/indexController.js")

@@ -16,5 +16,9 @@ router.get('/:room/:user', function(req, res) {
   res.render('roomView', {id: req.params.room, user: req.params.user});
 });
 
+router.get('/:room', function(req, res) {
+  res.render('roomView', {id: req.params.room});
+});
+
 // Exporta todo lo relacionado a la variable router
 module.exports = router;
