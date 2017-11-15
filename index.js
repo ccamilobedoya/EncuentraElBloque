@@ -29,4 +29,15 @@ http.listen(PORT, function () {
 // Sockets
 io.on('connection', function(socket){
   console.log('a user connected');
+
+  // connect willing sockets to a specific room
+  socket.on('room', function(room){
+    socket.join(room);
+    console.log(socket.id + ' joined room ' + room);
+  });
+
+  // send a message to all sockets in a specific room
+  socket.on('to room', function(data){
+    io.to(data.roomId).emit(data.message);
+  });
 });
