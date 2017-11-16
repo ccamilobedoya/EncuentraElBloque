@@ -16,7 +16,8 @@ socket.on('new question', function(){
 
 socket.on('answer now', function(){
   console.log('Contesta ahora');
-  $('.fixed-container').css('top', '-100%');
+  $('.fixed-container').css('display', 'none');
+  $('#svg').css('display','block');
 });
 
 // Answers
@@ -28,7 +29,8 @@ function answer(a) {
     message: 'answer',
     value: a
   };
-  $('.fixed-container').css('top', '0');
+  $('.fixed-container').css('display', 'flex');
+  $('#svg').css('display','none');
   socket.emit('to room', answerData);
 }
 

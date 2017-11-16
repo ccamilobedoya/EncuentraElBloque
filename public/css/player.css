@@ -5,7 +5,8 @@ font-family: 'Passion One', cursive;
 */
 
 body{
-
+  height: 100%;
+  width: 100%;
 }
 
 .container {
@@ -19,7 +20,7 @@ body{
 .title {
   font-family: 'Passion One', cursive;
   color: #539E6A;
-  font-size: 100px;
+  font-size: 50px;
   margin-top: 5vh;
   font-weight: normal;
   margin-bottom: 15px;
@@ -30,7 +31,7 @@ body{
 .sub-title {
   font-family: 'Lato';
   color: #539E6A;
-  font-size: 60px;
+  font-size: 38px;
   margin-top: 5vh;
   font-weight: normal;
   margin-bottom: 5px;
@@ -38,7 +39,7 @@ body{
 }
 
 .fixed-container {
-  position: fixed;
+  position: absolute;
   top: 0;
   left: 0;
   height: 100%;
@@ -48,4 +49,8 @@ body{
   align-items: center;
   justify-content: center;
   background-color: white;
+}
+
+#svg {
+  display: none;
 }
