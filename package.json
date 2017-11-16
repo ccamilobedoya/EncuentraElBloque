@@ -4,8 +4,8 @@
   "description": "Encuentra el bloque correcto dentro de la UdeA mientras compites por ser el mas rapido",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -32,5 +32,8 @@
   "devDependencies": {
     "child_process": "^1.0.2",
     "gulp": "^3.9.1"
+  },
+  "engines": {
+      "node": "7.2.1"
   }
 }
