@@ -38,6 +38,6 @@ io.on('connection', function(socket){
 
   // send a message to all sockets in a specific room
   socket.on('to room', function(data){
-    io.to(data.roomId).emit(data.message);
+    io.to(data.roomId).emit(data.message, data);
   });
 });

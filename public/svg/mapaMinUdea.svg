@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1"
-	 id="svg2" sodipodi:docbase="C:\Documents and Settings\Administrador\Mis documentos\Mis imÃ¡genes" inkscape:output_extension="org.inkscape.output.svg.inkscape" inkscape:version="0.45.1" sodipodi:docname="plano udea gttt.svg" sodipodi:version="0.32" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://web.resource.org/cc/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+	 id="svg2" xmlns:svg="http://www.w3.org/2000/svg" xmlns:cc="http://web.resource.org/cc/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:dc="http://purl.org/dc/elements/1.1/" sodipodi:version="0.32" sodipodi:docname="plano udea gttt.svg" inkscape:output_extension="org.inkscape.output.svg.inkscape" inkscape:version="0.45.1" sodipodi:docbase="C:\Documents and Settings\Administrador\Mis documentos\Mis imÃ¡genes"
 	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="-161 -13.1 635.2 587.1"
 	 style="enable-background:new -161 -13.1 635.2 587.1;" xml:space="preserve">
 <style type="text/css">
@@ -25,7 +25,7 @@
 	.st17{fill:#7F7F7F;}
 	.st18{fill:none;stroke:#FFFFFF;stroke-width:2.000000e-002;}
 </style>
-<sodipodi:namedview  inkscape:current-layer="svg2" inkscape:window-y="-4" inkscape:window-x="-4" inkscape:window-width="1024" inkscape:window-height="721" inkscape:pageopacity="0.0" inkscape:pageshadow="2" inkscape:cy="379.50051" inkscape:cx="397.02756" inkscape:zoom="0.51511346" pagecolor="#ffffff" bordercolor="#666666" guidetolerance="10.0" objecttolerance="10.0" gridtolerance="10.0" borderopacity="1.0" id="base">
+<sodipodi:namedview  inkscape:pageshadow="2" inkscape:pageopacity="0.0" inkscape:window-height="721" inkscape:window-width="1024" inkscape:window-x="-4" inkscape:window-y="-4" inkscape:current-layer="svg2" gridtolerance="10.0" borderopacity="1.0" inkscape:cx="397.02756" pagecolor="#ffffff" inkscape:zoom="0.51511346" objecttolerance="10.0" bordercolor="#666666" guidetolerance="10.0" id="base" inkscape:cy="379.50051">
 	</sodipodi:namedview>
 <polygon id="polygon206" class="st0" points="375.5,575.8 -163.4,509.4 -163.4,550.2 32.4,575.8 "/>
 <polygon id="polygon208" class="st1" points="-64.7,81.6 -102.7,75.7 -99.6,63 -163.4,56.1 -163.4,230.8 -100.6,244.7 "/>
@@ -590,14 +590,13 @@
 		<path class="st12" d="M293.4,159.4v13.3h18.8v-13.3C306.2,157,299.5,157,293.4,159.4z"/>
 		<path class="st12" d="M302,136.9c-6.3,0.2-12.4,2-17.7,5.3l0.4,0.8c5.2-3.2,11.2-4.9,17.3-5.1V136.9z"/>
 		<path class="st12" d="M302,138c-6.1,0.2-12.1,1.9-17.3,5.1l0.5,0.9c5.1-3,10.9-4.6,16.8-4.8V138z"/>
-		<path class="st12" d="M302,140.2C302,140.2,302,140.2,302,140.2l0-1.1c-5.9,0.1-11.7,1.8-16.8,4.8l0.5,0.9c0,0,0,0,0,0l0.5,0.8
+		<path class="st12" d="M302,140.2L302,140.2l0-1.1c-5.9,0.1-11.7,1.8-16.8,4.8l0.5,0.9c0,0,0,0,0,0l0.5,0.8
 			c4.9-2.6,10.3-4.1,15.8-4.2V140.2z"/>
-		<path class="st12" d="M302,143.6C302,143.6,302,143.6,302,143.6l0-1.1c0,0,0,0,0,0v-1.1c-5.5,0.1-11,1.6-15.8,4.2l0.5,0.8
-			c0,0,0,0,0,0l0.5,0.9c0,0,0,0,0,0l0.5,0.9c4.5-2.2,9.4-3.3,14.3-3.5V143.6z"/>
+		<path class="st12" d="M302,143.6L302,143.6l0-1.1c0,0,0,0,0,0l0-1.1c-5.5,0.1-11,1.6-15.8,4.2l0.5,0.8c0,0,0,0,0,0l0.5,0.9l0,0
+			l0.5,0.9c4.5-2.2,9.4-3.3,14.3-3.5V143.6z"/>
 		<path class="st12" d="M302,144.8c-5,0.1-9.9,1.3-14.3,3.5l0.5,0.9c4.3-2,9-3.1,13.8-3.2V144.8z"/>
-		<path class="st12" d="M302,150.8C302,150.8,302,150.8,302,150.8l0-1.3c0,0,0,0,0,0v-1.2c0,0,0,0,0,0v-1.1V146
-			c-4.8,0.1-9.5,1.2-13.8,3.2l0.5,0.9l0.5,0.9c0,0,0,0,0,0l0.6,1c0,0,0,0,0,0l0.6,1c0,0,0,0,0,0l0.5,0.9c3.5-1.3,7.3-2,11-2.1V150.8
-			z"/>
+		<path class="st12" d="M302,150.8L302,150.8l0-1.3h0v-1.2c0,0,0,0,0,0l0-1.1V146c-4.8,0.1-9.5,1.2-13.8,3.2l0.5,0.9l0.5,0.9
+			c0,0,0,0,0,0l0.6,1c0,0,0,0,0,0l0.6,1l0,0l0.5,0.9c3.5-1.3,7.3-2,11-2.1V150.8z"/>
 		<path class="st12" d="M302,153.1C302,153.1,302,153.1,302,153.1l0-1.2c-3.8,0.1-7.5,0.8-11,2.1l0.6,1c0,0,0,0,0,0l0.6,1.1
 			c3.2-1,6.5-1.6,9.8-1.7V153.1z"/>
 		<path class="st12" d="M303.7,154.4c3.3,0.1,6.7,0.6,9.8,1.7l0.6-1.1c-3.4-1.2-6.9-1.8-10.5-1.9V154.4z"/>
@@ -684,9 +683,9 @@
 		v0.8v0.2v2v2.8v1.3h-12.6h-12.6v-1.3v-2.8v-2v-0.2v-0.8v-0.2v-2.2v-2.8L-38.9,243.9z M-26.3,258.6h12.6v1.3v2.8v2.2v0.2v0.8v0.2v2
 		v2.8v1.3h-12.6h-12.6v-1.3v-2.8v-2v-0.2v-0.8v-0.2v-2.2v-2.8v-1.3H-26.3z"/>
 	<path id="path1096" class="st1" d="M-72.2,220.6v-2.8v-3.5h13.3h13.3v3.5v2.8v1.3v1.8v1.3v2.8v3.5h-13.3h-13.3v-3.5v-2.8v-1.3v-1.8
-		C-72.2,221.9-72.2,220.6-72.2,220.6z M-44.4,213.3h-33.7l-13,60.2h46.7V213.3z M-74.3,251v-3.8v-3v-1.5v-2v-1.5v-3v-3.8H-60l14.3,0
-		l0,3.8v3v1.5v2v1.5v3v3.8H-60L-74.3,251L-74.3,251z M-77.7,251.9h16.1h16.1v4.3v3.4v1.6v2.2v1.6v3.4v4.3h-16.1h-16.1v-4.3v-3.4
-		v-1.6v-2.2v-1.6v-3.4C-77.7,256.2-77.7,251.9-77.7,251.9z"/>
+		L-72.2,220.6z M-44.4,213.3h-33.7l-13,60.2h46.7V213.3z M-74.3,251v-3.8v-3v-1.5v-2v-1.5v-3v-3.8H-60l14.3,0l0,3.8v3v1.5v2v1.5v3
+		v3.8H-60L-74.3,251L-74.3,251z M-77.7,251.9h16.1h16.1v4.3v3.4v1.6v2.2v1.6v3.4v4.3h-16.1h-16.1v-4.3v-3.4v-1.6v-2.2v-1.6v-3.4
+		L-77.7,251.9z"/>
 	<polygon id="polygon1098" class="st13" points="184.7,333.2 181.9,333.2 181.9,336.9 184.7,336.9 	"/>
 	<polygon id="polygon1100" class="st13" points="90.2,364.7 84.9,364.7 84.9,424 90.2,424 90.2,423.2 85.8,423.2 85.8,365.5 
 		90.2,365.5 	"/>
@@ -703,8 +702,8 @@
 		h-20.3l11.5-52L-37.7,276.1L-37.7,276.1z"/>
 	<polyline id="polyline1104" class="st14" points="460.1,143.8 446.3,407.6 435.9,575.8 	"/>
 	<line id="line1106" class="st14" x1="462.1" y1="103.5" x2="466.7" y2="16.2"/>
-	<path id="path1108" class="st1" d="M453.2,14.7l-4.4,86.6l-278.7-32l3.6-68.6C173.7,0.7,453.2,14.7,453.2,14.7z M453.4,11.8
-		L172.4-2.5c-1.5,0.2-2.8,1.3-3.2,2.7l-4.6,68.3c-0.2,2.6,1.1,5.1,5.1,5.5l276.3,32c5.4,0.4,7.7-2.6,7.9-5.3l4-84.3
+	<path id="path1108" class="st1" d="M453.2,14.7l-4.4,86.6l-278.7-32l3.6-68.6L453.2,14.7z M453.4,11.8L172.4-2.5
+		c-1.5,0.2-2.8,1.3-3.2,2.7l-4.6,68.3c-0.2,2.6,1.1,5.1,5.1,5.5l276.3,32c5.4,0.4,7.7-2.6,7.9-5.3l4-84.3
 		C458,14.2,456.3,12.2,453.4,11.8z"/>
 </g>
 <g id="fondo_x0020_metro">

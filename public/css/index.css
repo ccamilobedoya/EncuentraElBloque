@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Passion+One&subset=latin-ext');
+/*
+font-family: 'Lato', sans-serif;
+font-family: 'Passion One', cursive;
+*/
+
+body{
+  background: #539E6A; /* Old browsers */
+  background: -moz-linear-gradient(top, #539E6A 0%, rgba(20,97,44,1) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #539E6A 0%,rgba(20,97,44,1) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #539E6A 0%,rgba(20,97,44,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#539E6A', endColorstr='#14612c',GradientType=0 ); /* IE6-9 */
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  align-items: center;
+}
+
+.title {
+  font-family: 'Passion One', cursive;
+  color: white;
+  font-size: 100px;
+  margin-top: 5vh;
+  font-weight: normal;
+  margin-bottom: 15px;
+  padding-left: 30px;
+  padding-right: 30px;
+  text-align: center;
+}
+.sub-title {
+  font-family: 'Lato';
+  color: white;
+  font-size: 60px;
+  margin-top: 5vh;
+  font-weight: normal;
+  margin-bottom: 5px;
+}
+.form-panel {
+  width: 40%;
+  padding: 20px;
+  background-color: rgb(240, 240, 240);
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+}
+.input {
+  padding:3px;
+  border-color:#cccccc;
+  text-align:center;
+  font-size:18px;
+  border-width:3px;
+  border-radius:6px;
+  border-style:hidden;
+  background-color:#ffffff;
+  color:#539e6a;
+  font-weight:normal;
+  width: 100%;
+  margin: 5px 0 10px 0;
+  font-family: 'Lato', sans-serif;
+}
+.input:focus {
+  outline:solid 2px;
+}
+.label {
+  font-family: 'Lato', sans-serif;
+  color: #539E6A;
+  margin: 15px 0 10px 0;
+  font-size: 15px;
+}
+
+button {
+  background-color: white;
+  text-decoration: none;
+  border: dashed 4px #539E6A;
+  border-radius: 4px;
+  padding: 10px 30px 10px 30px;
+  font-family: 'Passion One', cursive;
+  color: #539E6A;
+  font-weight: normal;
+  font-size: 25px;
+  transition: border 0.25s, color 0.25s;
+  cursor: pointer;
+  margin: 5px;
+}
+button:hover {
+  border: solid 4px #79bd8e;
+  color: #14612c;
+}
+
+.ranking-container {
+  /*position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #ccf9da;
+  background: -moz-linear-gradient(top, #539E6A 0%, rgba(204, 249, 218, 1) 100%);
+  background: -webkit-linear-gradient(top, #539E6A 0%,rgba(204, 249, 218, 1) 100%);
+  background: linear-gradient(to bottom, #539E6A 0%,#ccf9da 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#539E6A', endColorstr='#ccf9da',GradientType=0 );
+  */
+  width: 100%;
+
+}

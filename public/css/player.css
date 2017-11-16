@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Passion+One&subset=latin-ext');
+/*
+font-family: 'Lato', sans-serif;
+font-family: 'Passion One', cursive;
+*/
+
+body{
+
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  align-items: center;
+}
+
+.title {
+  font-family: 'Passion One', cursive;
+  color: #539E6A;
+  font-size: 100px;
+  margin-top: 5vh;
+  font-weight: normal;
+  margin-bottom: 15px;
+  padding-left: 30px;
+  padding-right: 30px;
+  text-align: center;
+}
+.sub-title {
+  font-family: 'Lato';
+  color: #539E6A;
+  font-size: 60px;
+  margin-top: 5vh;
+  font-weight: normal;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.fixed-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+}

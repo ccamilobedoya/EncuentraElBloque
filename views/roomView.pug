@@ -1,11 +1,25 @@
 html
-  body
-    h1 Sala #{id}
+  head
+    //link(href="https://fonts.googleapis.com/css?family=Lato|Passion+One&amp;subset=latin-ext" rel="stylesheet")
     
-    button(type="button" id="start-question-button") ¡Pregunta!
+    link(rel="stylesheet" type="text/css" href="/static/css/index.css")
+    title Sala #{id}
+  body
+    .container 
+      h1.sub-title#time
+      
+      h2.title#question
+      
+      br
+      button(type="button" id="start-question-button") ¡Pregunta!
 
-
+      br
+      br
+    .ranking-container
+      #chartContainer
+      
     script(src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js")
     script(src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js")
     script(src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.0.4/socket.io.js")
+    script(src="https://cdnjs.cloudflare.com/ajax/libs/canvasjs/1.7.0/canvasjs.min.js")
     script(src="/static/js/roomController.js")

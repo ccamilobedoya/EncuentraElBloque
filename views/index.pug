@@ -1,13 +1,29 @@
 html
   head
-    
+    //link(rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous")
+    link(rel="stylesheet" type="text/css" href="/static/css/index.css")
+
   body
-    form#GoToRoomForm(onSubmit="")
-      label Numero de Sala
-      input(type="text" id="roomId" value="")
-      label Nombre del jugador
-      input(type="text" id="userId" value="")
-      button(type="button", value="Ingresar" onclick="GoToRoom()") Ingresar
+    .container
+      h1.title ¡Encuentra el Bloque!
+
+      .form-panel
+        center
+          form(onSubmit="")
+            label.label Numero de Sala
+            input.input(type="text" id="roomId" value="")
+            label.label Nombre del jugador
+            input.input(type="text" id="userId" value="")
+            button(type="button", value="Ingresar" onclick="GoToRoom()") Unirse
+          
+          br
+          br
+          form(onSubmit="")
+            label.label Crear Sala
+            input.input(type="text" id="createRoomId" value="")
+            button(type="button", value="Ingresar" onclick="GoToAdminRoom()") Crear
+    
+
 
     script(src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js")
     script(src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.0.4/socket.io.js")
